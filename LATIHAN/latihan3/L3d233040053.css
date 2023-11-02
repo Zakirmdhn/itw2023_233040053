@@ -1,0 +1,30 @@
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+  }
+  .header {
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  .paragraf1 {
+    color: orange;
+    text-align: center;
+  }
+  
+  .link:hover {
+    color: red;
+  }
+  a.mark:hover {
+    color: darkblue;
+  }
+  .center {
+    text-align: center;
+  }
+  
