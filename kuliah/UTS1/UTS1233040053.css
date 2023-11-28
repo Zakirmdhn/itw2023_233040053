@@ -1,0 +1,38 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: #3f3f3f;
+}
+
+.header {
+    padding: 3px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.main {
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.footer {
+    background-color: black;
+    padding: 3px;
+    color: aliceblue;
+    text-align: center;
+    font-size: center;
+}
