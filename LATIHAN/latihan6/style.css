@@ -45,6 +45,17 @@ nav ul li a:hover {
     font-size: 0.8em;
 }
 
+div .container main {
+    grid-area: main;
+    background-color: #E0AA77;
+    box-sizing: border-box;
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 /* Hamburger Menu */
 .menu-toggle{
     display: none;
