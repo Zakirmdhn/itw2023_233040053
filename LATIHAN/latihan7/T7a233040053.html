@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=g, initial-scale=1.0" />
+    <title>IceCream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="T7a233040053.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">IceZek</h2>
+          <p class="sub-heading">IceCream</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 50k</h4>
+          <p class="item">Ice Coklat</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 80K</h4>
+          <p class="item">Icce Vanilla Coklat</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>IceCream</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallrey</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Tutorial</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, temporibus culpa.</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>jual</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, temporibus culpa.</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>beli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, temporibus culpa.</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallrey</h2>
+        <img src="https://source.unspalsh.com/random/100x100" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle input');
+      const nav = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('slide');
+      });
+    </script>
+  </body>
+</html>
